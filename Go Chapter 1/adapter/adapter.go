@@ -1,8 +1,5 @@
-//main package has examples shown
-// in Go Data Structures and algorithms book
 package main
 
-// importing fmt package
 import (
 	"fmt"
 )
@@ -33,11 +30,7 @@ func (adaptee Adaptee) convert() {
 	fmt.Println("Adaptee convert method")
 }
 
-// main method
 func main() {
-
 	var processor IProcess = Adapter{}
-
 	processor.process()
-
 }
