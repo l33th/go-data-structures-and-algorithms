@@ -14,7 +14,6 @@ type Account struct {
 func (account *Account) create(accountType string) *Account {
 	fmt.Println("account creation with type")
 	account.accountType = accountType
-
 	return account
 }
 
